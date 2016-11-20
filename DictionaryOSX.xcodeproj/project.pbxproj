@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FA13A481DE1F884009C3448 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA13A431DE1F884009C3448 /* CommandLine.swift */; };
+		4FA13A491DE1F884009C3448 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA13A461DE1F884009C3448 /* Option.swift */; };
+		4FA13A4A1DE1F884009C3448 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA13A471DE1F884009C3448 /* StringExtensions.swift */; };
+		4FA13A4C1DE1FE32009C3448 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA13A4B1DE1FE32009C3448 /* Dictionary.swift */; };
+		4FA939AC1DE1DA0000D45D48 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA939AB1DE1DA0000D45D48 /* main.swift */; };
+		4FA939C81DE1DEE200D45D48 /* TTTDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA939B81DE1DBD600D45D48 /* TTTDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FA939A61DE1DA0000D45D48 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4FA13A431DE1F884009C3448 /* CommandLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
+		4FA13A451DE1F884009C3448 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4FA13A461DE1F884009C3448 /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		4FA13A471DE1F884009C3448 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		4FA13A4B1DE1FE32009C3448 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		4FA939A81DE1DA0000D45D48 /* dictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dictionary; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA939AB1DE1DA0000D45D48 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4FA939B61DE1DBD600D45D48 /* DictionaryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryKit.h; sourceTree = "<group>"; };
+		4FA939B71DE1DBD600D45D48 /* TTTDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTDictionary.h; sourceTree = "<group>"; };
+		4FA939B81DE1DBD600D45D48 /* TTTDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTDictionary.m; sourceTree = "<group>"; };
+		4FA939C51DE1DC5A00D45D48 /* DictionaryOSX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DictionaryOSX-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FA939A51DE1DA0000D45D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FA13A421DE1F884009C3448 /* CommandLine */ = {
+			isa = PBXGroup;
+			children = (
+				4FA13A431DE1F884009C3448 /* CommandLine.swift */,
+				4FA13A451DE1F884009C3448 /* LICENSE */,
+				4FA13A461DE1F884009C3448 /* Option.swift */,
+				4FA13A471DE1F884009C3448 /* StringExtensions.swift */,
+			);
+			path = CommandLine;
+			sourceTree = "<group>";
+		};
+		4FA9399F1DE1DA0000D45D48 = {
+			isa = PBXGroup;
+			children = (
+				4FA939B31DE1DBD600D45D48 /* Frameworks */,
+				4FA939AA1DE1DA0000D45D48 /* DictionaryOSX */,
+				4FA939A91DE1DA0000D45D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FA939A91DE1DA0000D45D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA939A81DE1DA0000D45D48 /* dictionary */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FA939AA1DE1DA0000D45D48 /* DictionaryOSX */ = {
+			isa = PBXGroup;
+			children = (
+				4FA13A4B1DE1FE32009C3448 /* Dictionary.swift */,
+				4FA939C51DE1DC5A00D45D48 /* DictionaryOSX-Bridging-Header.h */,
+				4FA939AB1DE1DA0000D45D48 /* main.swift */,
+			);
+			path = DictionaryOSX;
+			sourceTree = "<group>";
+		};
+		4FA939B31DE1DBD600D45D48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FA13A421DE1F884009C3448 /* CommandLine */,
+				4FA939B51DE1DBD600D45D48 /* DictionaryKit */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FA939B51DE1DBD600D45D48 /* DictionaryKit */ = {
+			isa = PBXGroup;
+			children = (
+				4FA939B61DE1DBD600D45D48 /* DictionaryKit.h */,
+				4FA939B71DE1DBD600D45D48 /* TTTDictionary.h */,
+				4FA939B81DE1DBD600D45D48 /* TTTDictionary.m */,
+			);
+			name = DictionaryKit;
+			path = DictionaryKit/DictionaryKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FA939A71DE1DA0000D45D48 /* DictionaryOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA939AF1DE1DA0000D45D48 /* Build configuration list for PBXNativeTarget "DictionaryOSX" */;
+			buildPhases = (
+				4FA939A41DE1DA0000D45D48 /* Sources */,
+				4FA939A51DE1DA0000D45D48 /* Frameworks */,
+				4FA939A61DE1DA0000D45D48 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DictionaryOSX;
+			productName = DictionaryOSX;
+			productReference = 4FA939A81DE1DA0000D45D48 /* dictionary */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FA939A01DE1DA0000D45D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ODLP;
+				TargetAttributes = {
+					4FA939A71DE1DA0000D45D48 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4FA939A31DE1DA0000D45D48 /* Build configuration list for PBXProject "DictionaryOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FA9399F1DE1DA0000D45D48;
+			productRefGroup = 4FA939A91DE1DA0000D45D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FA939A71DE1DA0000D45D48 /* DictionaryOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FA939A41DE1DA0000D45D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA13A491DE1F884009C3448 /* Option.swift in Sources */,
+				4FA13A481DE1F884009C3448 /* CommandLine.swift in Sources */,
+				4FA13A4A1DE1F884009C3448 /* StringExtensions.swift in Sources */,
+				4FA13A4C1DE1FE32009C3448 /* Dictionary.swift in Sources */,
+				4FA939C81DE1DEE200D45D48 /* TTTDictionary.m in Sources */,
+				4FA939AC1DE1DA0000D45D48 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FA939AD1DE1DA0000D45D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FA939AE1DE1DA0000D45D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4FA939B01DE1DA0000D45D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = dictionary;
+				SWIFT_OBJC_BRIDGING_HEADER = "DictionaryOSX/DictionaryOSX-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		4FA939B11DE1DA0000D45D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = dictionary;
+				SWIFT_OBJC_BRIDGING_HEADER = "DictionaryOSX/DictionaryOSX-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FA939A31DE1DA0000D45D48 /* Build configuration list for PBXProject "DictionaryOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA939AD1DE1DA0000D45D48 /* Debug */,
+				4FA939AE1DE1DA0000D45D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA939AF1DE1DA0000D45D48 /* Build configuration list for PBXNativeTarget "DictionaryOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA939B01DE1DA0000D45D48 /* Debug */,
+				4FA939B11DE1DA0000D45D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FA939A01DE1DA0000D45D48 /* Project object */;
+}
