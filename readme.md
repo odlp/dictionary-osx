@@ -2,6 +2,13 @@
 
 Access the Mac OSX Dictionary app via the command line.
 
+## Installation
+
+- [Download the latest release](https://github.com/odlp/dictionary-osx/releases). Only available for OSX (tested on El Capitan).
+- Place the binary on your path, e.g. `/usr/local/bin/dictionary `
+
+Alternatively you can build the project with Xcode 7.3 or later. After running the build (`⌘R`), right click on the `Products` group and select `Show in Finder`.
+
 ## Usage
 
 ```sh
